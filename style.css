@@ -1,5 +1,5 @@
 body{
-    font-family: 'Uchen', serif;
+    font-family: 'Bona Nova', serif;
     margin: 0;
 }
 h1{
@@ -17,7 +17,7 @@ h3{
 .golden-part{
     color: rgb(238, 177, 24);
 }
-section{
+.flex-cont{
     display: flex;
     margin-bottom: 120px;
 }
@@ -56,4 +56,41 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+.ncolor{
+    color: lightseagreen;
+    font-size: 20px;
+    font-weight: 700;
+}
+.fz{
+    font-size: 40px;
+    font-weight: 700;
+}
+.pp{
+    text-align: justify;
+}
+.xp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-shadow{
+    width: 40%;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 450px;
+    height: 350px;
+    margin: 5%;
+    border-radius: 5px;
+    box-shadow: 7px 7px 40px grey;
+}
+#xp-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(214, 183, 7), yellow);
+    border-image-slice: 1;
+}
+#xd-wed{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
