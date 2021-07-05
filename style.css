@@ -90,9 +90,9 @@ h3{
     border-image-slice: 1;
 }
 #xd-wed{
-    border-left: 7px solid;
+    border-right: 7px solid;
     border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
+    border-image-slice: 2;
 }
 footer p {
     text-align: center;
